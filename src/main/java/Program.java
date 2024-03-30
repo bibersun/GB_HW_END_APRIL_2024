@@ -64,7 +64,7 @@ public class Program {
                             al.add_animal_to_list(new animal(nm, LocalDate.parse(b_d), atl.getAnimal_type_list(type)));
                             System.out.println(al);
                         } catch (DateTimeException e) {
-                            System.out.println("Введена неправильная дата");
+                            System.out.println("Введена неправильная дата или что-то ещё пошло не так:)");
                         }
 
                     }
